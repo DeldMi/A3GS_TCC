@@ -6,6 +6,7 @@
   "author": "DeldMi <andre88444@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
