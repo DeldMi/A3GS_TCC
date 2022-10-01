@@ -1,0 +1,11 @@
+{
+  "name": "A3GS_TCC",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DeldMi/A3GS_TCC.git",
+  "author": "DeldMi <andre88444@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
