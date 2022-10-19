@@ -14,11 +14,7 @@
     "manifest-file-extension": "off",
     "apple-touch-icons": "off",
     "highest-available-document-mode": "off",
-    "axe/text-alternatives": [
-      "default",
-      {
-        "document-title": "off"
-      }
-    ]
+    "axe/text-alternatives": "off",
+    "axe/name-role-value": "off"
   }
 }

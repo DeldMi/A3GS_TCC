@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600');
+
+
+.container {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: auto;
+    height: auto;
+    display: flex;
+    /* position: absolute; */
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.button {
+    z-index: 99;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 35px;
+    background: linear-gradient(45deg, #B388EB, #8093F1);
+    border-radius: 12px;
+    color: #FFF;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+
+
+.social {
+    opacity: 0;
+    position: relative;
+    margin: 7px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    color: #FFF;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.social i:nth-last-child(-n+1) {
+    margin-right: 10px;
+}
+
+.social a {
+    color: #FFF;
+}
+
+
+.twitter {
+    background: #00aced;
+}
+
+.facebook {
+    background: #3b5998;
+}
+
+.google {
+    background: #dd4b39;
+}
+
+.youtube {
+    background: #bb0000;
+}
+
+
+
+.container:active .twitter { 
+    opacity: 100%;
+    transition: 1.6s all ease;
+    cursor: pointer;
+    
+    animation-name: twitter;
+   animation-duration: 1.6s;
+}           
+
+@keyframes twitter {
+    0%{
+
+    }
+    100%{
+        transform: translateX(10px);
+        top: 10px;
+    }
+}
+
+.button:hover .facebook {
+    opacity: 1;
+    transition: 1.6s all ease;
+    transform: translateX(-20px);
+}
+
+.button:hover .google {
+    opacity: 1;
+    transition: 1.6s all ease;
+    transform: translateX(-30px);
+}
+
+.button:hover .youtube {
+    opacity: 1;
+    transition: 1.6s all ease;
+    transform: translateX(-40px);
+}
