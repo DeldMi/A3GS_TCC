@@ -51,6 +51,8 @@ header{
     padding: 0 30px 2px 30px;
     background-origin: initial;
     z-index: 77;
+
+    
 }
 
 header a{
@@ -79,6 +81,7 @@ header a{
     width: auto;
     display: flex;
     align-items: center;
+
 }
 #contato a:nth-last-child(1){
     margin-left: 20px;
@@ -100,19 +103,20 @@ header a{
 
     color: black;
 }
+/* Menu */
 
 #navMenu{
     width: 100%;
     height: 100px;
-
+    /* position: fixed;
+     */
     
 
     background: 
         linear-gradient(180deg,
-        #202124de 0%,
-        #464646e7 35%,
-        #464646e7 65%,
-        #202124de 100%
+        #25262e 10%,
+        #464646 50%,
+        #25262e 90%
     );
 
     display: flex;
@@ -130,24 +134,7 @@ header a{
     
 }
 
-.logo{
 
-    /* background: #8e8e8eb2; */
-    padding: 5px;
-    border-radius: 15px;
-     width: 0;
-
-    /* margin-bottom: -25px; */
-
-    display: flex;
-    align-items: center;
-    justify-self: center;
-    
-}
-
-.logo img{
-    
-}
 
 #navMenu ul{
     width: auto;
@@ -186,10 +173,6 @@ header a{
 #navMenu ul li a:hover {
     margin-bottom: 10px;
 
-
-
-
-
     /* border:1px solid ;  */
     box-shadow: 2px 2px 2px #202124,
     -2px -2px 2px #202124,
@@ -216,6 +199,24 @@ header a{
 
 
 
+.logo{
+
+    /* background: #8e8e8eb2; */
+    padding: 5px;
+    border-radius: 15px;
+     width: 0;
+
+    /* margin-bottom: -25px; */
+
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    
+}
+
+.logo img{
+    
+}
 
 
 
@@ -232,7 +233,7 @@ header a{
 }
 
 /* Roda pe da pagina */
-footer{
+/* footer{
 
     width: 100%;
     height: 100px;
@@ -247,7 +248,7 @@ footer{
     box-sizing: border-box;
     padding: 20px 5px
 
-}
+} */
 
 
 
