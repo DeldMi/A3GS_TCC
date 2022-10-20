@@ -63,9 +63,20 @@ footer {
     margin-bottom: 5px;
   }
   footer button {
-    background-color: #c7940a;
+    background-color: #2a8ded;
     color: #ffffff;
+    transition: .4s;
   }
+
+
+
+  footer button:hover {
+    background-color: #27bcda;
+    color: #ffffff;
+    transition: .4s;
+  }
+
+
   footer div.social {
     display: flex;
     justify-content: space-around;
@@ -73,9 +84,77 @@ footer {
     flex-direction: row;
     margin-top: 0.5em;
   }
-  .social i {
-    color: #bac6d9;
-  }
+  
+/*AppSocial*/
+.btn_social { 
+
+	width:auto; 
+	float:left; 
+	display:flex; 
+	margin:auto 0; 
+}
+
+.btn_social ul  { 
+
+	width:auto; 
+	/* margin:auto;  */
+	float:left; 
+	display:block; 
+}
+
+.btn_social ul li  { 
+
+	position:relative; 
+	background:#555555; 
+	list-style:none; 
+	float:left; 
+	margin:5px; 
+	z-index:1; 
+	overflow:hidden; 
+	border-radius:3px; 
+	font-size:1.5em; 
+	text-align:center; 
+}
+
+.btn_social ul li a  { 
+
+	width:50px; 
+	height:50px; 
+	line-height:53px; 
+	display:block; 
+	text-decoration:none; 
+	color:#000000; 
+	transition:.4s;
+
+}
+
+.btn_social ul li::before { 
+
+	transition:0.4s; 
+	position:absolute; 
+	content:''; 
+	width:100%; 
+	height:100%; 
+	top:90%; 
+	left:0; 
+	z-index:-1; 
+	transform: scale(1); 
+	transition:.4s; 
+	background:#2a8ded; 
+}
+
+.btn_social ul li:hover::before { transition:0.4s; top:0%; }
+.btn_social ul li a:hover       { color:#fff; }
+
+
+/* #linkedin a:hover       { color:#0a66c2; } */
+
+
+
+
+
+/*App Social*/
+
   
   .copyright {
     padding: 0.3em 1em;
@@ -99,9 +178,14 @@ footer {
     font-size: 0.9em;
     text-align: right;
   }
+
+
+
+  /* tamano minimo */
   @media screen and (max-width: 850px) {
     .row.primary {
       grid-template-columns: 1fr;
+      
     }
   
   }

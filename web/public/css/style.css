@@ -112,12 +112,7 @@ header a{
      */
     
 
-    background: 
-        linear-gradient(180deg,
-        #25262e 10%,
-        #464646 50%,
-        #25262e 90%
-    );
+    background:  #121315;
 
     display: flex;
 
@@ -181,6 +176,8 @@ header a{
     
     ;
     border-radius: 6px;
+
+    background-color: #575757;
 
 }
 
