@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "untitled-font-1";
-  src:url("fonts-icones/untitled-font-1.eot");
+  /* src:url("fonts-icones/untitled-font-1.eot"); */
   src:url("fonts-icones/untitled-font-1.eot?#iefix") format("embedded-opentype"),
     url("fonts-icones/untitled-font-1.woff") format("woff"),
     url("fonts-icones/untitled-font-1.ttf") format("truetype"),
