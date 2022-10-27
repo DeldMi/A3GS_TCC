@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="./css/scrollbar.css">
     <link rel="stylesheet" href="./css/footer-bot.css">
 
+    
+
     <title>A3GS | Home</title>
 
 
@@ -58,17 +60,24 @@
             <img src="./img/logo-A3GS.png" width="100px" alt="Logo A3GS">
         </div>
 
-        <ul>
+        <ul class="menu">
             <li>
                 <a href="index.html">Home</a>
             </li>
 
             <li>
-                <a href="servicos.html">Serviços</a>
+                <a id="servi"  href="#Servicos">Serviços</a>
+                <ul class="sub-menu">
+                    <li><a href="">Serviços</a></li>
+                    <li><a href="">Serviços</a></li>
+                    <li><a href="">Serviços</a></li>
+                    <li><a href="">Serviços</a></li>
+                    <li><a href="">Serviços</a></li>
+                </ul>
             </li>
 
             <li>
-                <a href="index.html">Orçamento</a>
+                <a onclick="getHtml()" href="#test">Test</a>
             </li>
 
             <li>
@@ -90,6 +99,9 @@
     </nav>
 
     <div class="content">
+      <script src="./js/main.js"></script>
+        <p id="a">test</p>
+        
 
         <!-- Conteúdo do site -->
 
@@ -112,8 +124,8 @@
                        <li id="whatsapp"><a href="#" target="_blank" title="youtube"><i class="icon icon-whatsapp"></i></a></li>
                        <li id="github"><a href="#" target="_blank" title="youtube"><i class="icon icon-mark-github"></i></a></li>
                        <li><a href="#" target="_blank" title="linkdin"><i class="icon icon-behance"></i></a></li>
-                       <li><a href="#" target="_blank" title="linkdin"><i class="icon icon-"></i></a></li>
-                       <li><a href="#" target="_blank" title="linkdin"><i class="icon "></i></a></li>
+                       <li><a href="#" target="_blank" title="linkdin"><i class="icon icon-youtube-play "></i></a></li>
+                       <li><a href="#" target="_blank" title="linkdin"><i class="icon icon-telephone "></i></a></li>
 
                     
                     </ul>
@@ -193,5 +205,6 @@
         })
     </script> -->
 </body>
+
 
 </html>
