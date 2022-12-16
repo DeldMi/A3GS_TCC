@@ -1,0 +1,19 @@
+#homeContainer {
+    width: 100%;
+}
+
+#homeContainer .inicioTop .card {
+    min-width: 360px;
+    max-width: 500px;
+    background: linear-gradient(130deg, #8894fc, #83ffd2);
+}
+
+#inicioBottom .card {
+    min-width: 353px; 
+    max-width: 600px; 
+}
+
+#inicioBottom .card p {
+    text-align: justify;
+    text-indent: 1em
+}

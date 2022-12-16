@@ -1,0 +1,47 @@
+#topSobre .card {
+    min-width: 353px;
+    max-width: 600px;
+    box-sizing: border-box;
+    width: 30rem;
+    height: auto;
+    padding: 20px
+}
+
+#topSobre .card h5 {
+    text-transform: uppercase;
+}
+
+#topSobre .card p {
+    
+    text-align: justify;
+    text-indent: 1em
+}
+
+#sobre p {
+
+    font-weight: 500;
+    font-family: Arial;
+    font-size: 20pt;
+
+    text-align: justify;
+    text-indent: 1em
+}
+
+#mvv .card {
+    min-width: 353px;
+    max-width: 600px;
+    background: linear-gradient(-130deg, #8894fc, #83ffd2);
+}
+
+#mvv .card h3 {
+
+    color: #02276c;
+    font-weight: 600;
+
+}
+
+#mvv .card p {
+    color: #131396;
+    text-align: justify;
+
+}

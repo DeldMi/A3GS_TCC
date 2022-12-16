@@ -1,32 +1,20 @@
 
 #header{
-    background-image: url(
-        'https://agencia67.com/wp-content/uploads/2022/10/banner_fundo2.jpg'),
-         url("https://mdn.mozillademos.org/files/7693/catfront.png");
+    background: url('./img/techender.gif'), url('https://www.conexaoboasnoticias.com.br/wp-content/uploads/2021/06/programacao_1060094186.jpg');
+    
     background-position: 0px 0px,
     center;
-
-
-
-}
-
-#header .col-tram{
-
-    background: #020024cb;
-    background: -moz-linear-gradient(138deg, #020024e5 0%, #090979cc 30%, #0569b9cb 63%, #00d4ffe4 100%);
-    background: -webkit-linear-gradient(138deg, #020024e5 0%, #090979cc 30%, #0569b9cb 63%, #00d4ffe4 100%);
-    background: linear-gradient(138deg, #020024e5 0%, #090979cc 30%, #0569b9cb 63%, #00d4ffe4 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1); 
-
 }
 
 
 #header header{
     background: #1616167c;
+
 }
 
 #card-btn{
     width: 100%;
+    
     background: #2a8ded;
     color: #ffffff !important;
     transition: 0.2;
@@ -50,6 +38,14 @@
     transition: 0.2;
 }
 
+#header h4{
+    color: #ffffff;
+    font-size: 20pt;
+    font-weight: 300;
+    
+    transition: 0.2;
+}
+
 #header ul li a{
     font-size: 17px;
     font-weight: 600;
@@ -62,10 +58,6 @@
     
     color: #2a8ded;
     transition: 0.2;
-
-}
-
-#header ul {
 
 }
 

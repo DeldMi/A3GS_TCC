@@ -17,16 +17,47 @@
     --color2-beaver: #9d8674ff;
     --color2-cadmium-orange: #eb8e49ff;
 
+    --gradiente-lite1:  -moz-linear-gradient(138deg, #0a0748 0%, #090979 30%, #0569b9 63%, #00d4ff 100%);
+    --gradiente-lite2: -webkit-linear-gradient(138deg, #0a0748 0%, #090979 30%, #0569b9 63%, #00d4ff 100%);
+    --gradiente-lite3: linear-gradient(138deg, #0a0748 0%, #090979 30%, #0569b9 63%, #00d4ff 100%);
+
+    --gradiente-opasidade-lite1:  -moz-linear-gradient(138deg, #0a0748cc 0%, #090979cc 30%, #0569b9cc 63%, #00d4ffcc 100%);
+    --gradiente-opasidade-lite2: -webkit-linear-gradient(138deg, #0a0748cc 0%, #090979cc 30%, #0569b9cc 63%, #00d4ffcc 100%);
+    --gradiente-Opacidade-lite3: linear-gradient(138deg, #0a0748cc 0%, #090979cc 30%, #0569b9cc 63%, #00d4ffcc 100%);
+
     /* fonte */
 
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+body{
+    width: 100%;
+}
+
+.gradiente-lite{
+    background:  -moz-linear-gradient(138deg, #0a0748 0%, #090979 30%, #0569b9 63%, #00d4ff 100%);
+    background: -webkit-linear-gradient(138deg, #0a0748 0%, #090979 30%, #0569b9 63%, #00d4ff 100%);
+    background: linear-gradient(138deg, #0a0748 0%, #090979 30%, #0569b9 63%, #00d4ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1); 
+}
+
+.gradiente-opasidade-lite{
+    background:  -moz-linear-gradient(138deg, #0a0748cc 0%, #090979cc 30%, #0569b9cc 63%, #00d4ffcc 100%);
+    background: -webkit-linear-gradient(138deg, #0a0748cc 0%, #090979cc 30%, #0569b9cc 63%, #00d4ffcc 100%);
+    background: linear-gradient(138deg, #0a0748cc 0%, #090979cc 30%, #0569b9cc 63%, #00d4ffcc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1); 
+}
+
+
+
 
 body {
     width: 100%;
 
     display: flex;
     flex-direction: column;
+
+    --bs-gutter-x: 0 !important;
 
     
 }
@@ -190,6 +221,7 @@ ul, .menu li.over ul {
     display: flex;
     align-items: center;
     justify-self: center;
+    
 }
 
 .logo img {
@@ -226,14 +258,26 @@ ul, .menu li.over ul {
 
 .parallax {
     /* The image used */
-    background-image: url("https://agencia67.com/wp-content/webp-express/webp-images/uploads/2022/10/sobre2.jpg.webp");
+    background: url('../img/techender.gif'), url('https://www.pontotel.com.br/wp-content/uploads/2022/10/tecnologia-e-pessoas.png');
   
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 200px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .btn-fixed{
+    padding: fixed;
+    bottom: 30px;
+    right: 30px;
+
+    visibility: hidden;
+  }
+
+  .btn-fixed.visible{
+    visibility: visible;
   }

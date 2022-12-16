@@ -1,0 +1,169 @@
+
+
+#ContainerEquipe {
+
+    box-sizing: border-box;
+
+}
+
+#ContainerEquipe .card {
+    max-width: 35rem;
+
+    margin-bottom: 20px !important;
+}
+
+/* filho do card */
+/* #ContainerEquipe .g-0{
+
+    width: auto ;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+} */
+
+#ContainerEquipe .g-0:hover{
+    background-color: #d1f0ff8a;
+
+    transition: 0.2s;
+}
+
+
+
+
+/* caixa do texto */
+#ContainerEquipe .card-houver {
+    height: auto;
+    /* flex: none; */
+
+}
+
+/* caixa da image */
+/* #ContainerEquipe .col-md-4{ 
+    width: 12em;
+} */
+
+#ContainerEquipe h5 {
+    font-weight: 600;
+}
+
+ #ContainerEquipe p {
+    /* display: none; */
+
+    font-size: 11pt;
+    text-align: justify;
+    
+    transition:  0.2s;
+}
+
+#ContainerEquipe h5 {
+    font-size: 20pt;
+}
+
+/*
+#ContainerEquipe .card:hover  p {
+
+    display: flex;
+
+    padding: 5px;
+
+
+
+    transition:  0.2s;
+} */
+
+
+
+
+/* .cardP2 {
+    max-width: 640px;
+    background-color: black !important;
+} */
+
+
+
+#ContainerEquipe .icons  {
+    width: 100%;
+    height: 33px;
+    
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-bottom: 0px;
+    margin-top: 15px;
+   
+
+}
+
+/* #ContainerEquipe .card-body{
+    box-sizing: border-box;
+} */
+
+#ContainerEquipe .icons a {
+
+    width: 30px;
+    height: 30px;
+
+    background-color: var(--color1-independence);
+
+    color: beige;
+    
+
+
+    text-decoration: none;
+
+    text-align: center;
+
+    margin: 0 5px 0 5px;
+
+    padding-bottom: auto;
+    padding-top: 2.9px;
+
+    font-size: 20px;
+
+    border-radius: 5px;
+
+    transition: 0.2s;
+}
+
+#ContainerEquipe .icons a:hover{
+    
+    
+    background-color: #fff;
+    box-shadow: 5px 5px 1px 0 #aaaaaa33,
+    inset 2px 2px 2px #aaaaaa33,
+    inset -2px -2px 2px #aaaaaa33;
+    
+    
+
+    transition: 0.2s;
+}
+
+
+#ContainerEquipe .icons .icon-github:hover{
+    color: #171515;
+
+    transition: 0.5s;
+}
+
+#ContainerEquipe .icons .icon-instagram:hover{
+    color: #3f729b;
+    
+    transition: 0.5s;
+}
+
+#ContainerEquipe .icons .icon-linkedin:hover{
+    color: #0e76a8;
+
+    transition: 0.5s;
+}
+
+
+#ContainerEquipe .icons .icon-mail-2:hover{
+    color: #9a1e26;
+
+    transition: 0.5s;
+}
